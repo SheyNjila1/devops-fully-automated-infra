@@ -15,7 +15,7 @@ Fully automated and secured Terraform infra pipeline
     - Security Group (Open): 8080, 9100 and 22 to 0.0.0.0/0
     - Key pair: Select or create a new keypair
     - **Attach Jenkins server with IAM role having "AdministratorAccess"**
-    - User data (Copy the following user data): https://github.com/cvamsikrishna11/devops-fully-automated/blob/installations/jenkins-maven-ansible-setup.sh
+    - User data (Copy the following user data): https://github.com/SheyNjila1/devops-fully-automated-infra/blob/main/Jenkins-maven-ansible-setup-tf.sh
     - Launch Instance
     - After launching this Jenkins server, attach a tag as **Key=Application, value=jenkins**
 
